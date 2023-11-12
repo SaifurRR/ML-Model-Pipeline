@@ -1,15 +1,14 @@
 import numpy as np
 import pandas as pd
-
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 
-# perform imputation (replace missing values) -> standard scaler
 ## Loading the dataset
 columns = ["sex","length","diam","height","whole","shucked","viscera","shell","age"]
 df = pd.read_csv("http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data",names=columns)
+
 ## Defining target and predictor variables
 y = df.age #target
 X = df.drop(columns=['age'])
@@ -27,26 +26,32 @@ for i in range(1000):
 ## Perform train-test split
 x_train, x_test, y_train, y_test = train_test_split(X,y, random_state=0, test_size=0.25)
 
-#####-------Imputation and Scaling: Code base to transform -----------------#####
+#perform imputation (replace missing values) -> standard scaler
+
 ## Numerical training data
 x_train_num = x_train[num_cols]
 # Filling in missing values with mean on numeric features only
 x_train_fill_missing = x_train_num.fillna(x_train_num.mean())
+
 ## Fitting standard scaler on x_train_fill_missing
 scale = StandardScaler().fit(x_train_fill_missing)
+
 ## Scaling data after filling in missing values
 x_train_fill_missing_scale = scale.transform(x_train_fill_missing)
-## Same steps as above, but on the test set:
+
+## same steps as above, but on the test set:
 x_test_fill_missing = x_test[num_cols].fillna(x_train_num.mean())
 x_test_fill_missing_scale = scale.transform(x_test_fill_missing)
+
 #####-------Imputation and Scaling: Code base to transform -----------------#####
 
-#1. Rewrite using Pipelines!
+#1. Using Pipelines!
 pipeline=Pipeline([("imputer", SimpleImputer(strategy='mean')),("scale", StandardScaler())])
 
-##2. Fit pipeline on the test and compare results
+#2. Fit pipeline on the test and compare results
 pipeline.fit(x_train[num_cols])
 x_transform=pipeline.transform(x_test[num_cols])
+
 #3.  Verify pipeline transform test set is the same by using np.array_equal()
 array_diff=np.array_equal(x_transform,x_test_fill_missing_scale)
 print(f'pipeline_arr == np_arr: {array_diff}')
@@ -54,7 +59,7 @@ print(f'pipeline_arr == np_arr: {array_diff}')
 #4. Change imputer strategy to median 
 pipeline_median=Pipeline([('imputer', SimpleImputer(strategy='median')),('scale',StandardScaler())])
 
-# 5 Compare results between the two pipelines
+#5. Compare results between the two pipelines
 pipeline_median.fit(x_train[num_cols])
 x_transform_median=pipeline_median.transform(x_test[num_cols])
 
