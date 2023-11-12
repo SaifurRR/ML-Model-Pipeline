@@ -8,6 +8,6 @@ We will this dataset to build a pipeline, containing all preprocessing and data 
 
 pipeline_arr == scaled_tx_arr: True
 
-abs(pipeline_arr_med - scaled_tx_arr_med) = 43.36075966952346
+|pipeline_arr_med - scaled_tx_arr_med| = 43.36075966952346
 
  
