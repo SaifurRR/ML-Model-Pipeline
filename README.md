@@ -13,6 +13,6 @@ pipeline_arr == scaled_tx_arr : True
 ## 2. Categorical Data Cleaning: 
 ### Output:
 
-pipeline_arr == scaled_tx_arr : True
+pipeline_arr == scaled_tx_arr : True    
     
    
