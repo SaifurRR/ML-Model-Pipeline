@@ -50,6 +50,15 @@ pipeline_arr == scaled_tx_arr : True
 pipeline score: 0.4879020616816332
 
 sklearn metric: 0.4879020616816332
+
+### (e). Hyperparameter Tuning GridSearchCV:
+
+#### Output: best_score_, best_params_
+
+GridSearchCV best score: -5.409647741106873
+
+GridSearchCV best params: {'regr__fit_intercept': True}
+   
    
 
        
