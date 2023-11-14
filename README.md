@@ -5,21 +5,21 @@ We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-database
 
 ## 1. Preprocessing 
 
-### (a). Numeric Data Cleaning: 
+### (a). Numeric Data Cleaning 
 #### Output:
 
 pipeline_arr == scaled_tx_arr : True
 
 |pipeline_arr_med - scaled_tx_arr_med| = 43.36075966952346
   
-### (b). Categorical Data Cleaning: 
-### Output:
+### (b). Categorical Data Cleaning 
+#### Output:
 
 pipeline_arr == scaled_tx_arr : True      
 
-### (c). Column Transformer -> numerical & categorical: 
+### (c). Column Transformer -> numerical & categorical
 
-### Preprocess transformer to training data: 
+#### Preprocess transformer to training data: 
 
  ColumnTransformer(transformers=[('num_preprocess',
                                  Pipeline(steps=[('imputer', SimpleImputer()),
@@ -43,9 +43,9 @@ pipeline_arr == scaled_tx_arr : True
    1.] [ 0.67489571  0.67579052  0.58732329 ...  0.84334058  0.
    0.]]
 
-### (d). Adding Linear Regression Model: 
+### (d). Adding Linear Regression Model
 
-### Output: 
+#### Output: 
 
 pipeline score: 0.4879020616816332
 
