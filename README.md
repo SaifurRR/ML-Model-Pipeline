@@ -16,9 +16,9 @@ pipeline_arr == scaled_tx_arr : True
 pipeline_arr == scaled_tx_arr : True      
 
 ## 3. Column Transformer -> numerical & categorical: 
-### Output:
 
-preprocess transformer to training data: 
+### Preprocess transformer to training data: 
+
  ColumnTransformer(transformers=[('num_preprocess',
                                  Pipeline(steps=[('imputer', SimpleImputer()),
                                                  ('scale', StandardScaler())]),
@@ -31,20 +31,15 @@ preprocess transformer to training data:
                                                                 sparse=False))]),
                                  Index(['sex'], dtype='object'))])
 
-store transformed test data: 
- [[ 0.20638521  0.15779273  0.35112392 ...  0.68293021  0.
-   1.        ]
- [-0.21953343 -0.10120617 -0.47557388 ... -0.34880017  1.
-   0.        ]
- [ 0.8026713   0.72759029  0.35112392 ...  0.55533104  0.
-   1.        ]
- ...
- [-0.2621253  -0.10120617 -0.47557388 ... -0.37432     0.
-   1.        ]
- [ 0.97303876  1.03838897  0.70542298 ...  1.22249238  0.
-   1.        ]
- [ 0.67489571  0.67579052  0.58732329 ...  0.84334058  0.
-   0.        ]]
+### Store transformed test data: 
+
+  [[ 0.20638521  0.15779273  0.35112392 ...  0.68293021  0.
+   1.] [-0.21953343 -0.10120617 -0.47557388 ... -0.34880017  1.
+   0.] [ 0.8026713   0.72759029  0.35112392 ...  0.55533104  0.
+   1.] ...[-0.2621253  -0.10120617 -0.47557388 ... -0.37432     0.
+   1.] [ 0.97303876  1.03838897  0.70542298 ...  1.22249238  0.
+   1.] [ 0.67489571  0.67579052  0.58732329 ...  0.84334058  0.
+   0.]]
 
        
        
