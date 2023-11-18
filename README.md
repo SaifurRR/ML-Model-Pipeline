@@ -1,4 +1,4 @@
-# Bone-Marrow-Transplantation-ML-Pipelines
+# ML Pipeline Steps
 In this project, we will be using a dataset containing bone marrow transplantation characteristics for pediatric patients from UCI’s Machine Learning Repository.
 
 We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data), to build a pipeline, containing all preprocessing and data cleaning steps, and then select the best classifier to predict patient survival.
