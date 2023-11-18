@@ -73,7 +73,10 @@ The hyperparameters_of_imputer are:
 {'add_indicator': False, 'copy': True, 'fill_value': None, 'missing_values': nan, 'strategy': 'most_frequent', 'verbose': 0}
 
 ## 5. Custom Imputer:
-   
+### Check custom imputer (replace missing value with mean) with 'fillna(mean):
+### Output:
+"check custom imputer & fillna": True
+
      
 
        
