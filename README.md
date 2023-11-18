@@ -43,7 +43,7 @@ pipeline_arr == scaled_tx_arr : True
    1.] [ 0.67489571  0.67579052  0.58732329 ...  0.84334058  0.
    0.]]
 
-### (d). Adding Linear Regression Model
+## 2. Adding Linear Regression Model
 
 #### Output: R^2 score
 
@@ -51,7 +51,7 @@ pipeline score: 0.4879020616816332
 
 sklearn metric: 0.4879020616816332
 
-### (e). Hyperparameter Tuning GridSearchCV:
+## 3. Hyperparameter Tuning GridSearchCV:
 
 #### Output: best_score_, best_params_
 
