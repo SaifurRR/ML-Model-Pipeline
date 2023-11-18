@@ -42,4 +42,4 @@ class MyImputer(BaseEstimator, TransformerMixin):
 #1. Create new pipeline using the custom class MyImputer as the first step and standard scaler on the second
 pipeline=Pipeline([("my_imputer",),()])
 
-#2. Fit new pipeline on the training data with num_cols only and verify that the results of the transform are the same on test set  
+#2. Fit new pipeline on the training data with num_cols only and verify that the results of the transform are the same on test set     
