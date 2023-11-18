@@ -63,13 +63,13 @@ GridSearchCV best params: {'regr__fit_intercept': True}
 
 #### Output: best regression model, hyperparameters_of_regression_model, hyperparameters_of_imputer
 
-The best regression model is:
+The best_regression_model is:
 Ridge(alpha=1)
 
-The hyperparameters of the regression model are:
+The hyperparameters_of_regression_model are:
 {'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': False, 'random_state': None, 'solver': 'auto', 'tol': 0.001}
 
-The hyperparameters of the imputer are:
+The hyperparameters_of_imputer are:
 {'add_indicator': False, 'copy': True, 'fill_value': None, 'missing_values': nan, 'strategy': 'most_frequent', 'verbose': 0}
    
    
