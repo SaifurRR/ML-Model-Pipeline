@@ -68,5 +68,5 @@ print(best_model_hyperparameters)
 #4. Access the hyperparameters of the categorical preprocessing step
 cat_preprocess_hyperparameters = best_pipeline.named_steps['preprocess'].named_transformers_['cat_preprocess'].named_steps['imputer'].get_params()
 print('The hyperparameters of the imputer are:')
-print(cat_preprocess_hyperparameters)
+print(cat_preprocess_hyperparameters)  
 
