@@ -71,6 +71,8 @@ The hyperparameters_of_regression_model are:
 
 The hyperparameters_of_imputer are:
 {'add_indicator': False, 'copy': True, 'fill_value': None, 'missing_values': nan, 'strategy': 'most_frequent', 'verbose': 0}
+
+## 5. Custom Imputer:
    
    
 
