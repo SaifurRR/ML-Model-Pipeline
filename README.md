@@ -75,7 +75,7 @@ The hyperparameters_of_imputer are:
 ## 5. Custom Imputer:
 ### Check custom imputer (replace missing value with mean) with 'fillna(mean):
 ### Output:
-"check custom imputer & fillna": True
+"check both arrays are equal": True
 
      
 
