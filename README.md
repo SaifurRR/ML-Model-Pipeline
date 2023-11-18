@@ -61,7 +61,7 @@ GridSearchCV best params: {'regr__fit_intercept': True}
 
 ## 4. Final Pipeline:
 
-#### Output: best regression model, hyperparameters_of_regression_model, hyperparameters_of_imputer
+#### Output: best_regression_model, hyperparameters_of_regression_model, hyperparameters_of_imputer
 
 The best_regression_model is:
 Ridge(alpha=1)
