@@ -78,7 +78,17 @@ The hyperparameters_of_imputer are:
 "check both arrays are equal": True
 
 # Build ML Pipeline using UCI Bone Marrow Dataset:
-
+-donor_age - Age of the donor at the time of hematopoietic stem cells apheresis
+-donor_age_below_35 - Is donor age less than 35 (yes, no)
+-donor_ABO - ABO blood group of the donor of hematopoietic stem cells (0, A, B, AB)
+-donor_CMV - Presence of cytomegalovirus infection in the donor of hematopoietic stem cells prior to transplantation (present, absent)
+-recipient_age - Age of the recipient of hematopoietic stem cells at the time of transplantation
+-recipient_age_below_10 - Is recipient age below 10 (yes, no)
+-recipient_age_int - Age of the recipient discretized to intervals (0,5], (5, 10], (10, 20]
+-recipient_gender - Gender of the recipient (female, male)
+-recipient_body_mass - Body mass of the recipient of hematopoietic stem cells at the time of the transplantation
+…
+-survival_status - Survival status (0 - alive, 1 - dead)
      
 
        
