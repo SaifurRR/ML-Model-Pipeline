@@ -78,25 +78,43 @@ The hyperparameters_of_imputer are:
 "check both arrays are equal": True
 
 # Build ML Pipeline using UCI Bone Marrow Dataset:
--donor_age - Age of the donor at the time of hematopoietic stem cells apheresis
 
--donor_age_below_35 - Is donor age less than 35 (yes, no)
+-donor_age - Age of the donor at the time of hematopoietic stem cells apheresis,
 
--donor_ABO - ABO blood group of the donor of hematopoietic stem cells (0, A, B, AB)
+-donor_age_below_35 - Is donor age less than 35 (yes, no),
 
--donor_CMV - Presence of cytomegalovirus infection in the donor of hematopoietic stem cells prior to transplantation (present, absent)
+-donor_ABO - ABO blood group of the donor of hematopoietic stem cells (0, A, B, AB),
 
--recipient_age - Age of the recipient of hematopoietic stem cells at the time of transplantation
+-donor_CMV - Presence of cytomegalovirus infection in the donor of hematopoietic stem cells prior to transplantation (present, absent),
 
--recipient_age_below_10 - Is recipient age below 10 (yes, no)
+-recipient_age - Age of the recipient of hematopoietic stem cells at the time of transplantation,
 
--recipient_age_int - Age of the recipient discretized to intervals (0,5], (5, 10], (10, 20]
+-recipient_age_below_10 - Is recipient age below 10 (yes, no),
 
--recipient_gender - Gender of the recipient (female, male)
+-recipient_age_int - Age of the recipient discretized to intervals (0,5], (5, 10], (10, 20]),
 
--recipient_body_mass - Body mass of the recipient of hematopoietic stem cells at the time of the transplantation
+-recipient_gender - Gender of the recipient (female, male),
+
+-recipient_body_mass - Body mass of the recipient of hematopoietic stem cells at the time of the transplantation,
 …
--survival_status - Survival status (0 - alive, 1 - dead)
+-survival_status - Survival status (0 - alive, 1 - dead),
+
+### Output:
+
+Pipeline Accuracy Test Set:
+0.7894736842105263
+
+The best classification model is:
+LogisticRegression()
+
+The hyperparameters of the best classification model are:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+
+The number of components selected in the PCA step are:
+37
+
+Best Model Accuracy Test Set:
+0.8157894736842105
      
 
        
