@@ -6,14 +6,14 @@ We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-database
 ## 1. Preprocessing 
 
 ### (a). Numeric Data Cleaning 
-#### Output:
+### Output:
 
 pipeline_arr == scaled_tx_arr : True
 
 |pipeline_arr_med - scaled_tx_arr_med| = 43.36075966952346
   
 ### (b). Categorical Data Cleaning 
-#### Output:
+### Output:
 
 pipeline_arr == scaled_tx_arr : True      
 
@@ -45,7 +45,7 @@ pipeline_arr == scaled_tx_arr : True
 
 ## 2. Adding Linear Regression Model
 
-#### Output: R^2 score
+### Output: R^2 score
 
 pipeline score: 0.4879020616816332
 
@@ -53,7 +53,7 @@ sklearn metric: 0.4879020616816332
 
 ## 3. Hyperparameter Tuning GridSearchCV:
 
-#### Output: best_score_, best_params_
+### Output: best_score_, best_params_
 
 GridSearchCV best score: -5.409647741106873
 
@@ -61,7 +61,7 @@ GridSearchCV best params: {'regr__fit_intercept': True}
 
 ## 4. Final Pipeline:
 
-#### Output: best_regression_model, hyperparameters_of_regression_model, hyperparameters_of_imputer
+### Output: best_regression_model, hyperparameters_of_regression_model, hyperparameters_of_imputer
 
 The best_regression_model is:
 Ridge(alpha=1)
