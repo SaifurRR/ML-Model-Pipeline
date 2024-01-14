@@ -115,7 +115,12 @@ The number of components selected in the PCA step are:
 
 Best Model Accuracy Test Set:
 0.8157894736842105
-     
+
+# Feature Engineering
+
+## 1. Baseline Scoring
+
+MAE Baseline Score: 8.232     | MAE Score with Ratio Features: 7.948
 
        
        
