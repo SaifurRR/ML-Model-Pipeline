@@ -3,7 +3,7 @@ In this project, we will be using a dataset containing bone marrow transplantati
 
 We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data), to build a pipeline, containing all preprocessing and data cleaning steps, and then select the best classifier to predict patient survival.
 
-## 1. Preprocessing 
+## 1. Preprocessing   
        
 ### (a). Numeric Data Cleaning 
 ### Output:   
