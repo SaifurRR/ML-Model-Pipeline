@@ -122,6 +122,10 @@ Best Model Accuracy Test Set:
 
 MAE Baseline Score: 8.232     | MAE Score with Ratio Features: 7.948  
 
+## 2. Mutual Information (MI)
+
+[!ALT TEXT](https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Feature-Engineering-Kaggle/2_Highest_MI_Interaction_Features.jpg)
+
        
        
    
