@@ -137,7 +137,7 @@ In the figure on the right, feature `fuel_type` has a low MI score, but it separ
 Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=ames.csv
 
 
-(![ALT TXT]https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Feature-Engineering-Kaggle/2_Investigate_MI.png)
+![ALT TXT](https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Feature-Engineering-Kaggle/2_Investigate_MI.png)
 
 We investigated trend lines from one category to the next to identify any interaction effect.
        
