@@ -134,6 +134,12 @@ Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=auto
 
 In the figure on the right, feature `fuel_type` has a low MI score, but it separates two price populations with different trends within the `horsepower` feature. This infers that `fuel_type` (low MI score) contributes to an interaction effect.
 
+Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=ames.csv
+
+
+(![ALT TXT]https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Feature-Engineering-Kaggle/2_Investigate_MI.png)
+
+We investigated trend lines from one category to the next to identify any interaction effect.
        
        
    
