@@ -45,7 +45,7 @@ pipeline_arr == scaled_tx_arr : True
 
 ## 2. Adding Linear Regression Model
 
-### Output: \R^2 score
+### Output: $R^2$ score
 
 pipeline score: 0.4879020616816332
 
