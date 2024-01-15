@@ -118,6 +118,8 @@ Best Model Accuracy Test Set:
 
 # Feature Engineering
 
+### Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=autos.csv
+
 ## 1. Baseline Scoring
 
 `MAE Baseline Score`: 8.232     | `MAE Score with Ratio Features`: 7.948  
