@@ -120,7 +120,7 @@ Best Model Accuracy Test Set:
 
 ## 1. Baseline Scoring
 
-MAE Baseline Score: 8.232     | MAE Score with Ratio Features: 7.948
+MAE Baseline Score: 8.232     | MAE Score with Ratio Features: 7.948  
 
        
        
