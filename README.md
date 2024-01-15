@@ -1,5 +1,5 @@
 # ML Pipeline Steps
-In this project, we will be using a dataset containing bone marrow transplantation characteristics for pediatric patients from UCI’s Machine Learning Repository.
+In this project, we use a dataset containing bone marrow transplantation characteristics for pediatric patients from UCI’s Machine Learning Repository.
 
 We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data), to build a pipeline, containing all preprocessing and data cleaning steps, and then select the best classifier to predict patient survival.
 
@@ -125,6 +125,8 @@ MAE Baseline Score: 8.232     | MAE Score with Ratio Features: 7.948
 ## 2. Mutual Information (MI)
 
 ![ALT TXT](https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Feature-Engineering-Kaggle/2_Highest_MI_Interaction_Features.jpg)
+
+In the figure on the right, feature `fuel_type` has a low MI score, but it separates two price populations with different trends within the `horsepower` feature. This infers that `fuel_type` contributes to an interaction effect.
 
        
        
