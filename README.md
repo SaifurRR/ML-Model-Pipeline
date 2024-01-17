@@ -139,7 +139,7 @@ Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=ames
 
 ![ALT TXT](https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Feature-Engineering-Kaggle/2_Investigate_MI.png)
 
-We investigated trend lines from one category to the next to identify any interaction effect.
+We investigated trend lines from one category to the next to identify any interaction effect.    
        
        
    
