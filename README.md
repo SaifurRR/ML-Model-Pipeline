@@ -12,7 +12,7 @@ pipeline_arr == scaled_tx_arr : True
 
 |pipeline_arr_med - scaled_tx_arr_med| = 43.36075966952346
   
-### (b). Categorical Data Cleaning 
+### (b). Categorical Data Cleaning    
 ### Output:
 
 pipeline_arr == scaled_tx_arr : True      
