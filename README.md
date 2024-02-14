@@ -7,7 +7,7 @@ We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-database
        
 ### (a). Numeric Data Cleaning 
 ### Output:   
-  
+   
 pipeline_arr == scaled_tx_arr : True   
 
 |pipeline_arr_med - scaled_tx_arr_med| = 43.36075966952346
