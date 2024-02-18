@@ -5,7 +5,7 @@ We will use the dataset (http://archive.ics.uci.edu/ml/machine-learning-database
 
 ## 1. Preprocessing   
        
-### (a). Numeric Data Cleaning 
+### (a). Numeric Data Cleaning   
 ### Output:   
    
 pipeline_arr == scaled_tx_arr : True   
