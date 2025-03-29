@@ -176,6 +176,12 @@ What we’re working with:
 
 
 <p align="center">
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Loss_func_without_regularization.jpg" alt="No Regularization" width="500"/>
+   <br>
+  <b> </b> Constraint boundary without regularization for coefficients b1 & b2
+</p>
+
+<p align="center">
   <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_no_regularization.jpg" alt="No Regularization" width="500"/>
    <br>
   <b> </b> Coefficients without Regularization
