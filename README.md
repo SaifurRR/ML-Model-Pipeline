@@ -142,7 +142,44 @@ Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=ames
 We investigated trend lines from one category to the next to identify any interaction effect.    
        
        
-   
+# Regularization - Lasso(L1) - Ridge(L2)
+
+**Dataset:** <u>https://archive.ics.uci.edu/dataset/186/wine+quality</u>
+
+The data you’re going to be working with is from the <u>Wine Quality Dataset</u> in the <u>UCI Machine Learning Repository</u>. We’re looking at the red wine data in particular and while the original dataset has a 1-10 rating for each wine, 
+
+we’ve made it a classification problem with a wine quality of good (>5 rating) or bad (<=5 rating). The goals of this project are to:
+
+-implement different logistic regression classifiers
+
+-find the best ridge-regularized classifier using hyperparameter tuning
+
+-implement a tuned lasso-regularized feature selection method
+
+What we’re working with:
+
+**11** - input variables (based on physicochemical tests): ‘fixed acidity’, ‘volatile acidity’, ‘citric acid’, ‘residual sugar’,’chlorides’, ‘free sulfur dioxide’, ‘total sulfur dioxide’, ‘density’, ‘pH’, ‘sulphates’ and ‘alcohol’.
+
+An output variable, **quality (0 for bad and 1 for good)**
+
+
+<p align="center">
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_no_regularization.jpg" alt="No Regularization" width="500"/>
+   <br>
+  <b> </b> Coefficients without Regularization
+</p>
          
-    
+<p align="center">
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/f1score_Vs_C-hyperparam.png" alt="Hyperparameter -C tuning" width="500"/>
+   <br>
+  <b> </b> f1-score vs C (hyperparameter) 
+</p>
+
+<p align="center">
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_tuned_L1_feature-elimination.jpg" alt="L1 feature elimination" width="500"/>
+   <br>
+  <b> </b> Lasso (L1) tuned feature elimination
+</p>
+        
+            
    
