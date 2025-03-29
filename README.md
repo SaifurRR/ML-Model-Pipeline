@@ -101,20 +101,19 @@ The hyperparameters_of_imputer are:
 
 ### Output:
 
-Pipeline Accuracy Test Set:
-0.7894736842105263
+**Pipeline Accuracy Test Set:** 0.7894736842105263
 
 The best classification model is:
-LogisticRegression()
+**LogisticRegression**
 
 The hyperparameters of the best classification model are:
 {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
 
 The number of components selected in the PCA step are:
-37
+**37**
 
 Best Model Accuracy Test Set:
-0.8157894736842105
+**0.8157894736842105**
 
 # Feature Engineering
 
@@ -123,7 +122,7 @@ Best Model Accuracy Test Set:
 Dataset: https://www.kaggle.com/datasets/ryanholbrook/fe-course-data?select=concrete.csv
 
 
-`MAE Baseline Score`: 8.232     | `MAE Score with Ratio Features`: 7.948  
+`MAE Baseline Score`: **8.232**     | `MAE Score with Ratio Features`: **7.948** 
 
 ## 2. Mutual Information (MI)
 
@@ -146,7 +145,7 @@ We investigated trend lines from one category to the next to identify any intera
 
 **Dataset:** <u>https://archive.ics.uci.edu/dataset/186/wine+quality</u>
 
-The data you’re going to be working with is from the **Wine Quality Dataset** in the **UCI Machine Learning Repository**. We’re looking at the red wine data in particular and while the original dataset has a **1-10 rating** for each wine, 
+The data we worked with was from the **Wine Quality Dataset** in the **UCI Machine Learning Repository**. We’re looking at the red wine data in particular and while the original dataset has a **1-10 rating** for each wine, 
 
 we’ve made it a classification problem with a wine quality of **good (>5 rating)** or **bad (<=5 rating)**. The goals of this project are to:
 
@@ -160,7 +159,7 @@ What we’re working with:
 
 **l1 - input variables** (based on physicochemical tests): ‘fixed acidity’, ‘volatile acidity’, ‘citric acid’, ‘residual sugar’,’chlorides’, ‘free sulfur dioxide’, ‘total sulfur dioxide’, ‘density’, ‘pH’, ‘sulphates’ and ‘alcohol’.
 
-**quality - output variables** - (0 for bad & 1 for good)
+**quality - output variables**  (0 for bad & 1 for good)
 
 ## Output:
 
