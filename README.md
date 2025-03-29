@@ -178,7 +178,7 @@ What we’re working with:
 <p align="center">
   <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Loss_func_without_regularization.jpg" alt="No Regularization" width="650"/>
    <br>
-  <b> </b> Fig: Constraint boundary without regularization for coefficients b1 & b2
+  <b> </b> Fig: Constraint boundary without Regularization for coefficients b1 & b2
 </p>
 
 <p align="center">
@@ -196,7 +196,7 @@ What we’re working with:
 <p align="center">
   <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_tuned_L1_feature-elimination.jpg" alt="L1 feature elimination" width="650"/>
    <br>
-  <b> </b> Fig: Lasso (L1) tuned for feature-elimination
+  <b> </b> Fig: Lasso (L1) tuned with Regularization for feature-elimination
 </p>
         
             
