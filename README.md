@@ -176,25 +176,25 @@ What we’re working with:
 
 
 <p align="center">
-  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Loss_func_without_regularization.jpg" alt="No Regularization" width="500"/>
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Loss_func_without_regularization.jpg" alt="No Regularization" width="700"/>
    <br>
   <b> </b> Constraint boundary without regularization for coefficients b1 & b2
 </p>
 
 <p align="center">
-  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_no_regularization.jpg" alt="No Regularization" width="500"/>
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_no_regularization.jpg" alt="No Regularization" width="700"/>
    <br>
   <b> </b> Coefficients without Regularization
 </p>
          
 <p align="center">
-  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/f1score_Vs_C-hyperparam.png" alt="Hyperparameter -C tuning" width="500"/>
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/f1score_Vs_C-hyperparam.png" alt="Hyperparameter -C tuning" width="700"/>
    <br>
   <b> </b> f1-score vs C (hyperparameter) 
 </p>
 
 <p align="center">
-  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_tuned_L1_feature-elimination.jpg" alt="L1 feature elimination" width="500"/>
+  <img src="https://github.com/SaifurRR/ML-Model-Pipeline/blob/main/Regularization/Coefficients_tuned_L1_feature-elimination.jpg" alt="L1 feature elimination" width="700"/>
    <br>
   <b> </b> Lasso (L1) tuned feature elimination
 </p>
